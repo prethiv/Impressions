@@ -1,0 +1,59 @@
+.feedPost{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    float: left;
+    font-weight: 500;
+    margin-left:5%
+}
+
+.post{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 50px gray;
+}
+.feedDate{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    float: left;
+    font-weight: 500;
+    margin-left:5%;
+    color: gray;
+}
+
+#threeDots{
+    height:40px;
+    width:40px;
+    float: right;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+#likeIcon{
+    height:40px;
+    width:40px;
+    float: left;
+    margin-left: 2%;
+}
+
+#statusBar{
+    border: 1px solid black;
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.statusImage{
+    width: 75px;
+    height:75px;
+    border-radius: 37.5px;
+    margin-left: 10%;
+}
+
+.statusName{
+    margin-left: 20%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
